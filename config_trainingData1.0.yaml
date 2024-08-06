@@ -1,0 +1,16 @@
+
+path: R:\Codes\FYP\Model\FYP_v1.0\collected_data_v1.0 # use absolute path
+train: train/images
+val: val/images
+test: test/images
+
+nc: 6  # total number of classes
+names: ['coca-cola zero (can)', 'coca-cola zero (bottle)', 'cactus mineral water', '100 plus', 'sprite', 'pepsi']
+
+
+#roboflow:
+#  workspace: personal-g5mzf
+#  project: soda-can-object-detection
+#  version: 5
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/personal-g5mzf/soda-can-object-detection/dataset/5
